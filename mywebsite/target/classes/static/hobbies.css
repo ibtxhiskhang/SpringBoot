@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(231, 208, 199);
+    color: white;
+ }
+
+#title {
+    border: 2px solid white;
+    text-align: center;
+    background: white;
+    opacity: 50%;
+    color: brown;
+    padding: 5px;
+    -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+#image1 {
+    display: flex;
+}
+
+#image1:hover #volleyball {
+display: block;
+}
+#i1:hover {
+opacity: 50%;
+}
+#volleyball {
+display: none;
+}
+
+#image2 {
+    display: flex;
+}
+#image2:hover #photography {
+display: block;
+}
+#i2:hover {
+opacity: 50%;
+}
+#photography {
+display: none;
+}
+
+#image3 {
+    display: flex;
+}
+#image3:hover #makeup {
+display: block;
+}
+#i3:hover {
+opacity: 50%;
+}
+#makeup {
+display: none;
+}
+
+#image4 {
+    display: flex;
+}
+#image4:hover #traveling {
+display: block;
+}
+#i4:hover {
+opacity: 50%;
+}
+#traveling {
+display: none;
+}
+
+#image5 {
+    display: flex;
+}
+#image5:hover #family {
+display: block;
+}
+#i5:hover {
+opacity: 50%;
+}
+#family {
+display: none;
+}
+
+button {
+    background: white;
+    color: brown;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+button:hover {
+    background: rgb(151, 108, 88);
+    color: white;
+    font-style: italic;
+}
+
+a {
+text-decoration: none;
+}

@@ -1,0 +1,51 @@
+
+#body {
+    background-color: rgb(231, 208, 199);
+    color: white;
+    display: fixed;
+ }
+
+img {
+    border: 2px solid white;
+    transform: rotate(30deg);
+    box-shadow: 2px brown;
+}
+
+#image {
+    display: float;
+    float: right;
+    margin: 5% 30% 0 0;
+
+}
+#info {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid white;
+    justify-content: center;
+    text-shadow: 2px brown;
+}
+
+button {
+    background: white;
+    color: brown;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+button:hover {
+    background: rgb(151, 108, 88);
+    color: white;
+    font-style: italic;
+}
+
+
+#about {
+    text-align: center;
+    margin: 5% 20% 0 0;
+
+}
+a {
+text-decoration: none;
+}
